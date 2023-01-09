@@ -1,26 +1,28 @@
 ---
 title: arduino1
 date: 2022-12-30 12:14:00
-tags: arduino
+categories:
+  - arduino
+tags:
+  - arduino
+  - 编程
 ---
 
-# Arduino项目一览表
+# Arduino 项目一览表
 
 ## 立项的项目
 
-* 智能小车
+- 智能小车
 
-* 1602a小屏幕
+- 1602a 小屏幕
 
-* 蓝牙通信
+- 蓝牙通信
 
-* 暂定
-
-  
+- 暂定
 
 ## 已完成的项目
 
-* 机械臂+控制器项目
+- 机械臂+控制器项目
 
 ```c
 #include <LiquidCrystal_I2C.h>
@@ -218,7 +220,7 @@ void setup() {
   slowmove(Left, map(analogRead(A0) / 4, 0, 256, 80, 180), true);
   slowmove(Right, map(analogRead(A1) / 4, 0, 256, 60, 180), true);
   output();
-  
+
   //  slowmove(Rotate,Initial[0]);
   //  slowmove(Left,Initial[1]);
   //  slowmove(Right,Initial[2]);
@@ -324,4 +326,3 @@ void loop()
 }
 
 ```
-
