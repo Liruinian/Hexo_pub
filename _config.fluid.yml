@@ -125,11 +125,11 @@ deploy:
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/fluid.png
+favicon: /img/logo-small.png
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/fluid.png
+apple_touch_icon: /img/logo-small.png
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -897,18 +897,18 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId:
-  appKey:
+  appId: 5D8PCjx346RX0ULAbXXWGDo4-gzGzoHsz
+  appKey: F7fHoDRpSpKS8c6aYBQw879Y
   path: window.location.pathname
-  placeholder:
+  placeholder: 评论区虚位以待！
   avatar: 'retro'
   meta: ['nick', 'mail', 'link']
   requiredFields: []
   pageSize: 10
   lang: 'zh-CN'
   highlight: false
-  recordIP: false
-  serverURLs: ''
+  recordIP: true
+  serverURLs: 'https://5d8pcjx3.lc-cn-n1-shared.com'
   emojiCDN:
   emojiMaps:
   enableQQ: false
