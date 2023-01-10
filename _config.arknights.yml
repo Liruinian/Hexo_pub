@@ -6,7 +6,7 @@ background_image: https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg
 
 # 导航栏
 menu:
-  Home: ''
+  Home: ""
   # About: about/
   # Contact: contact/
   Archives: archives/
@@ -60,10 +60,10 @@ search:
 # Valine
 # 详见 https://valine.js.org
 valine:
-  enable: false
-  app_id: # APP ID
-  app_key: # APP KEY
-  server_url: # APP DOMAIN（LeanCloud 国际版）
+  enable: true
+  app_id: 5D8PCjx346RX0ULAbXXWGDo4-gzGzoHsz
+  app_key: F7fHoDRpSpKS8c6aYBQw879Y
+  server_url: https://5d8pcjx3.lc-cn-n1-shared.com
 
 # gitalk
 # 详见 https://github.com/gitalk/gitalk
@@ -79,7 +79,7 @@ gitalk:
 # 图表支持
 mermaid:
   enable: true
-  version: '9.2.2'
+  version: "9.2.2"
 
 # pjax 支持
 pjax:
@@ -88,7 +88,7 @@ pjax:
 # 公式前端渲染
 mathjax:
   enable: false
-  version: '2.6.1'
+  version: "2.6.1"
 
 # 在 `<head>` 标签内引入 CSS 样式表
 stylesheets:
