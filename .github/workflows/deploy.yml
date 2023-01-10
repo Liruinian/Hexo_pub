@@ -24,9 +24,6 @@ jobs:
     - name: Install Dependencies
       if: steps.cache.outputs.cache-hit != 'true'
       run: npm ci
-    # Run hexo addons
-    - name: Hexo Addons
-      run: cnpm install hexo-server hexo-browsersync hexo-renderer-pug --save
     # Deploy hexo blog website.
     - name: Deploy
       id: deploy
